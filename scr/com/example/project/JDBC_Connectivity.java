@@ -12,7 +12,7 @@ public class JDBC_Connectivity {
     return DriverManager.getConnection(
         "jdbc:postgresql://localhost:5432/library",
         "postgres",
-        "siddhi"
+        "1234"
     );
     }
     public static void createTable(String table, String sql) {
